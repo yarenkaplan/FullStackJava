@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    border: 2px solid #808080;
+    color: rgba(87, 4, 4, 0.8);
+    margin: 0 auto;
+}
+header {
+    border: 0.5px solid gray;
+    text-align: center;
+    margin-top: 20px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    font-size: x-small;
+    font-style: italic;
+}
+table{
+    border: 5;
+    border-spacing: 0.5;
+    padding: 1;
+}
+.container{
+    max-width: 1000px;
+     margin: 0 auto;
+     padding: 32px 20px;
+}
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.skills-table th {
+    background-color: rgba(53, 51, 51, 0.4);
+    text-align: left;
+    padding: 14px;
+}
+.skills-table td {
+    padding: 14px;
+    border-bottom: 1px solid #d1d5db;
+}
+.skills-table tr:hover {
+    background-color: #f3f4f6;
+}
