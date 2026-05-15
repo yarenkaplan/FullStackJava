@@ -13,7 +13,7 @@
 
     <main class="container">
       <section>
-        <h3>About Me</h3>
+        <h3 id="about-me">About Me</h3>
         <h4>Yaren Kaplan</h4>
         <h5>Backend Developer | Cloud & DevOps Enthusiast</h5>
         <p style="font-size: small">
@@ -44,7 +44,7 @@
       </section>
       <hr />
       <section>
-        <h3>Skills</h3>
+        <h3 id="skills">Skills</h3>
         <table class="skills-table">
           <thead>
             <tr>
@@ -76,7 +76,7 @@
       <hr />
 
       <section>
-        <h3>Projects</h3>
+        <h3 id="projects">Projects</h3>
         <ul>
           <li>Hotel Guest Management System — Java & Spring Boot</li>
           <li>Gender-Based Salary Analysis — Python & Pandas, NumPy</li>
@@ -86,13 +86,64 @@
       <hr />
       <section>
         <h3>Contact</h3>
+        <a href="mailto:yarenkaplan.se@gmail.com">Send Email</a>
         <p>E-mail: yarenkaplan.se@gmail.com</p>
         <a href="https://www.linkedin.com/in/yaren-kaplan/" target="_blank"
           >LinkedIn</a
         >
       </section>
     </main>
+    <a href="#about-me">jump to about me</a>
+    <br />
+    <button onclick="document.location='index.html'">index page</button>
     <hr />
+    <p>Click on left hand side coffee to get information!</p>
+    <img
+      src="./assets/image/blog.jpg"
+      alt="blog picture"
+      style="width: 840px; height: 350px"
+      usemap="#blog"
+    />
+
+    <map name="blog">
+      <area
+        shape="rect"
+        coords="203,86,282,172"
+        alt="Coffee"
+        href="https://tr.wikipedia.org/wiki/Kahve"
+        target="_blank"
+        onclick="blogFunction()"
+      />
+    </map>
+    <script>
+      function blogFunction(){
+        alert("You clicked the coffee!");
+      }
+    </script>
+    <br />
+    <hr />
+    <p>
+      <img
+        src="./assets/image/teamwork.jpg"
+        alt="teamwork picture"
+        style="float: right; width: 340px; height: 250px"
+      />The image will float to the right of the text.
+    </p>
+    <br />
+    <br />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
     <footer>This page contains personal information.</footer>
   </body>
