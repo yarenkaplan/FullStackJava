@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Stack Java</title>
+    <meta name="author" content="Yaren Kaplan" />
+    <meta name="keywords" content="html5,css3,js,es5,es6,ts,node,bs5,react" />
+    <meta name="description" content="Full Stack Java context" />
+  </head>
+  <body>
+    <noscript>
+      <p>
+        This page requires JavaScript. Please enable JavaScript and then reload
+        the page.
+      </p>
+    </noscript>
+
+    <main class="site-shell">
+      <section class="form-card" id="form" aria-labelledby="form-title">
+        <!--div.form-header>h2#form-title{Education/Consulting Registration Form}+p{Please enter information}-->
+        <div class="form-header">
+          <h2 id="form-title">Education/Consulting Registration Form</h2>
+          <p>Please enter information</p>
+        </div>
+      </section>
+
+      <form action="#" method="get">
+        <fieldset>
+          <legend>1) Personal Information</legend>
+          <div class="form-row">
+            <div class="input-group">
+              <label for="name">Name</label>
+              <!--name >> to integrate with backend-->
+              <!--required autofocus >> even page is refreshed cursor focused on related input-->
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                minlength="3"
+                required
+                autofocus
+              />
+              <small class="input-help">Min 3 char</small>
+            </div>
+            <div class="input-group">
+              <label for="surname">Surname</label>
+              <input
+                type="text"
+                id="surname"
+                name="surname"
+                placeholder="Surname"
+                minlength="3"
+                required
+                autofocus
+              />
+              <small class="input-help">Min 3 char</small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+              <small class="email-help">Email is required</small>
+            </div>
+
+            <div class="input-group">
+              <label for="phonenumber">Phone Number</label>
+              <input
+                type="tel"
+                id="phonenumber"
+                name="phonenumber"
+                placeholder="Phone Number"
+                pattern="[0-9s()+-]{10-18}"
+                required
+              />
+              <small class="input-help">Phone number is required</small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-group">
+              <label for="city">City</label>
+              <select>
+                <option value="" selected disabled>Select</option>
+                <option value="izmir">İzmir</option>
+                <option value="İstanbul">İstanbul</option>
+                <option value="ankara">Ankara</option>
+              </select>
+              <small class="input-help">City is required</small>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="class" id="check-line">
+              <input type="checkbox" required />
+              <label for="terms">I accept the terms and conditions.</label>
+              <a href="#">Terms and Conditions</a>
+            </div>
+          </div>
+
+          <div class="button-row">
+            <button class="ghost-btn" type="reset">Clear</button>
+            <button class="submit-btn" type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
