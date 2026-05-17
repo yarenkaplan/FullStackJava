@@ -71,9 +71,12 @@ legend {
   margin-bottom: 1.3rem;
   grid-template-columns: 1fr 1fr;
 }
-.form-row .single {
+.form-row.single {
   grid-template-columns: 1fr;
-  color: red;
+  background: #1172ea!important;
+}
+.form-row.single .check-line a{
+  color:#1172ea;
 }
 
 .input-group label {
