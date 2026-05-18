@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <meta name="author" content="Yaren Kaplan" />
+    <meta name="keywords" content="html5,css3,js, es5,es6,ts,node,bs5,react" />
+    <meta name="description" content="Yaren Kaplan Portfolio" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <noscript>
+      <p>
+        This page requires JavaScript. Please enable JavaScript and then reload
+        the page.
+      </p>
+    </noscript>
+
+    <main class="site-shell">
+      <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <div class="container">
+          <a
+            class="navbar-left active"
+            href="#"
+            aria-current="page"
+            style="text-decoration: none"
+            >Home<span class="visually-hidden">(current)</span></a
+          >
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-right" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--currently not visible-->
+      <div class="hero-banner">
+        <img src="./assets/image/youronlylimitisyou.png" />
+      </div>
+
+      <div class="hero">
+        <div class="hero-content">
+          <div class="hero-title">
+            <div class="hero-title">
+              <h1>Yaren Kaplan</h1>
+            </div>
+            <div class="hero-subtitle">
+              <h3>Software Engineer</h3>
+            </div>
+            <div class="hero-description">
+              <p>
+                Backend-focused software engineer with experience in enterprise
+                ERP systems, cloud-based applications, CI/CD and automation.
+              </p>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <button
+              class="btn btn-primary"
+              href="https://www.linkedin.com/in/yaren-kaplan/"
+            >
+              LinkedIn
+            </button>
+            <button
+              class="btn btn-secondary"
+              href="mailto:yarenkaplan.se@gmail.com"
+            >
+              E-Mail
+            </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/image/ai-cartoon-me.png" />
+        </div>
+      </div>
+
+      <div class="main-content">
+        <section>
+          <section class="experience" id="experience">
+            <h5 class="section-title">Experience</h5>
+            <!--
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">July 2023 - May 2025</div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <h6 class="job-title">Backend Engineer</h6>
+                  </div>
+                  <h6>Edaf GmbH</h6>
+                  <ul class="experience-details">
+                    <li>
+                      Contributed to 3 concurrent enterprise ERP projects
+                      supporting 50+ end users across multiple German cities.
+                    </li>
+                    <li>
+                      Designed and implemented backend customizations and system
+                      integrations within Microsoft Dynamics 365 Business
+                      Central.
+                    </li>
+                    <li>
+                      Led end-to-end migration from on-premise ERP (Navision) to
+                      Business Central Cloud with zero critical downtime.
+                    </li>
+                    <li>
+                      Built and maintained CI/CD pipelines using Azure DevOps to
+                      automate build and deployment workflows.
+                    </li>
+                    <li>
+                      Developed automation scripts and backend services to
+                      improve data consistency and reduce manual workload.
+                    </li>
+                    <li>
+                      Participated in debugging, troubleshooting, and
+                      performance optimization activities in production
+                      environments.
+                    </li>
+                    <li>
+                      Collaborated with QA, product, and DevOps teams following
+                      Agile methodology.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">March 2023 - May 2023</div>
+
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <h6 class="job-title">Software Engineer</h6>
+                  </div>
+                  <h6>TatilSA</h6>
+                  <ul class="experience-details">
+                    <li>
+                      Developed backend automation scripts for data processing
+                      and system integrations.
+                    </li>
+                    <li>
+                      Built a Python-based XML transformation and validation
+                      pipeline to synchronize large product datasets.
+                    </li>
+                    <li>
+                      Implemented schema validation, error handling, and
+                      OOP-based reusable modules.
+                    </li>
+                    <li>
+                      Improved data reliability and reduced manual correction
+                      efforts through automated reconciliation logic.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">February 2023 - March 2023</div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <h6 class="job-title">Software Engineering Intern</h6>
+                  </div>
+                  <h6>TatilSA</h6>
+                  <ul class="experience-details">
+                    <li>
+                      Assisted in backend debugging and data consistency
+                      improvements.
+                    </li>
+                    <li>
+                      Contributed to website deployment and backend integration
+                      workflows.
+                    </li>
+                    <li>
+                      Supported cross-functional teams in optimizing backend
+                      processes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            -->
+            
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">
+                    &#128467; July 2023 - May 2025
+                  </div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <h6 class="job-title">Backend Engineer</h6>
+                    
+                  </div>
+                  <h6>&#127970; Edaf GmbH</h6>
+                  <ul class="experience-details">
+                    <li>
+                      Contributed to 3 concurrent enterprise ERP projects
+                      supporting 50+ end users across multiple German
+                      cities.
+                    </li>
+                    <li>
+                      Designed and implemented backend customizations and
+                      system integrations within Microsoft Dynamics 365
+                      Business Central.
+                    </li>
+                    <li>
+                      Led end-to-end migration from on-premise ERP
+                      (Navision) to Business Central Cloud with zero
+                      critical downtime.
+                    </li>
+                    <li>
+                      Built and maintained CI/CD pipelines using Azure
+                      DevOps to automate build and deployment workflows.
+                    </li>
+                    <li>
+                      Developed automation scripts and backend services to
+                      improve data consistency and reduce manual workload.
+                    </li>
+                    <li>
+                      Participated in debugging, troubleshooting, and
+                      performance optimization activities in production
+                      environments.
+                    </li>
+                    <li>
+                      Collaborated with QA, product, and DevOps teams
+                      following Agile methodology.
+                    </li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">
+                    &#128467; March 2023 - May 2023
+                  </div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <h6 class="job-title">Software Engineer</h6>
+                    
+                  </div>
+                  <h6>&#127970; TatilSA</h6>
+                  <ul class="experience-details">
+                    <li>
+                      Developed backend automation scripts for data
+                      processing and system integrations.
+                    </li>
+                    <li>
+                      Built a Python-based XML transformation and validation
+                      pipeline to synchronize large product datasets.
+                    </li>
+                    <li>
+                      Implemented schema validation, error handling, and
+                      OOP-based reusable modules.
+                    </li>
+                    <li>
+                      Improved data reliability and reduced manual
+                      correction efforts through automated reconciliation
+                      logic.
+                    </li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">
+                  &#128467; February 2023 - March 2023
+                </div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <h6 class="job-title">Software Engineering Intern</h6>
+                    
+                  </div>
+                  <h6>&#127970; TatilSA</h6>
+                  <ul class="experience-details">
+                    <li>
+                      Assisted in backend debugging and data consistency
+                      improvements.
+                    </li>
+                    <li>
+                      Contributed to website deployment and backend
+                      integration workflows.
+                    </li>
+                    <li>
+                      Supported cross-functional teams in optimizing backend
+                      processes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+
+
+            <div id="carouselId" class="carousel slide" >
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  
+                </div>
+                <div class="carousel-item">
+                 
+                </div>
+                <div class="carousel-item">
+                  
+                </div>
+              </div>
+
+              <!--currently not visible-->
+              <div class="carousel-controls">
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselId"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselId"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <!-- currently not visible: skills,cloud,projects,languages -->
+          <section class="skills" id="skills">
+            <div class="section-title">
+              <h5>Skills</h5>
+            </div>
+
+            <div class="skills-grid">
+              <div class="skills-card">
+                <h6 class="skill-title">Programming Languages</h6>
+                <ul>
+                  <li class="skill-item">Java</li>
+                  <li class="skill-item">Python</li>
+                  <li class="skill-item">SQL</li>
+                </ul>
+              </div>
+              <div class="skills-card"></div>
+
+              <div class="skills-card"></div>
+            </div>
+          </section>
+
+          <section class="cloud" id="cloud">
+            <div class="section-title">
+              <h5>Cloud</h5>
+            </div>
+            <p>Practical Cloud & DevOps Experience</p>
+            <div class="cloud-grid">
+              <div class="cloud-card">
+                Configured AWS EC2, S3, IAM, and monitoring with CloudWatch.
+              </div>
+              <div class="cloud-card">
+                Implemented CI/CD pipelines using GitHub Actions and Azure
+                DevOps.
+              </div>
+            </div>
+          </section>
+
+          <section class="projects" id="projects">
+            <div class="section-title">
+              <h5>Projects</h5>
+            </div>
+
+            <div class="project-grid">
+              <div class="project-card">
+                <div class="project-title">
+                  <h6>Gender-Based Salary Analysis</h6>
+                </div>
+                <div class="project-description">
+                  <p>
+                    Built data-cleaning and transformation pipeline using Pandas
+                    & NumPy.
+                  </p>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-title">
+                  <h6>Hospital Network Architecture</h6>
+                </div>
+                <div class="project-description">
+                  <p>
+                    Designed a robust hospital network infrastructure ensuring
+                    24/7 connectivity for critical systems, emphasizing system
+                    reliability, fault tolerance, and cross-functional
+                    collaboration.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="languages" id="languages">
+            <div class="section-title">
+              <h5>Languages</h5>
+            </div>
+
+            <div class="languages-list">
+              <div class="language-item">English - C1</div>
+              <div class="language-item">German - A2</div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer>
+      <div class="footer-text"></div>
+    </footer>
+  </body>
+</html>
