@@ -286,7 +286,7 @@ button:hover {
 }
 .experience-card {
   height: 100%;
-  background: rgba(255, 255, 255, 0.92);
+  background: linear-gradient(to bottom, #c3c4c4, #f1f1f2);
   backdrop-filter: blur(8px);
   border: 1px solid #e2e8f0;
   border-radius: 24px;
@@ -307,6 +307,10 @@ button:hover {
 #experience {
   background: var(--company-background);
   border: 2px solid #727374;
+  max-height: 1300px;
+}
+#experience .experience-details {
+  color: rgb(71, 70, 70);
 }
 .carousel-inner {
   min-height: 550px;
@@ -338,11 +342,69 @@ button:hover {
     left: -26px;
   }
 }
-#skills,
+#skills {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 40%, #334155 100%);
+  border: 2px solid #727374;
+  padding: 15px 15px;
+  margin: auto;
+  width: min(1270px, 100%);
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+  margin-top: 5px;
+}
+.skills-card {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  padding: 15px;
+  transition: 0.3s ease;
+}
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+.skill-tags span {
+  background-color:rgba(96,165,250,0.15);
+  color: #93c5fd;
+  border: 1px solid rgba(147,197,253,0.2);;
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.skill-tags span:hover {
+  background: #2563eb;
+  color: white;
+  transform: scale(1.05);
+}
+.skill-title{
+  color: #c6c6c6;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c6c6c6;
+  margin-bottom:20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
 #cloud,
 #projects,
 #languages,
-.hero-banner,
-.carousel-controls {
+.hero-banner {
   visibility: hidden;
 }
