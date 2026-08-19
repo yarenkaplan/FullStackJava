@@ -209,7 +209,6 @@ button:hover {
   border-radius: 15px;
   margin-top: 2vh;
   padding: 24px;
-  margin: 4px;
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 .hero-content {
@@ -249,7 +248,7 @@ button:hover {
   background-color: #625858;
   background: linear-gradient(#ffffff, #0f172a);
   border: 1px solid #e2e8f0;
-  border-radius: 18px;
+  border-radius: 15px;
   padding: 24px;
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
   min-height: 500px;
@@ -289,7 +288,7 @@ button:hover {
   background: linear-gradient(to bottom, #c3c4c4, #f1f1f2);
   backdrop-filter: blur(8px);
   border: 1px solid #e2e8f0;
-  border-radius: 24px;
+  border-radius: 15px;
   padding: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: 0.25s ease;
@@ -307,8 +306,8 @@ button:hover {
 #experience, #projects{
   background: var(--company-background);
   border: 2px solid #727374;
-  border-radius: 24px;
-  margin: 4px;
+  border-radius: 15px;
+  margin-top: 4px;
 }
 #experience .experience-details {
   color: rgb(71, 70, 70);
@@ -346,10 +345,10 @@ button:hover {
   padding: 15px 15px;
   margin: auto;
   width: min(1270px, 100%);
-  border-radius: 24px;
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 0px;
+  margin-top: 4px;
 }
 .skills-grid {
   display: grid;
@@ -361,7 +360,7 @@ button:hover {
   background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 15px;
   transition: 0.3s ease;
 }
@@ -414,7 +413,7 @@ button:hover {
 .project-card {
   background: linear-gradient(to bottom, #c3c4c4, #f1f1f2);
   backdrop-filter: blur(10px);
-  border-radius: 28px;
+  border-radius: 15px;
   padding: 28px;
   margin: 10px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
