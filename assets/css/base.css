@@ -153,4 +153,58 @@ a {
   .page-section {
     padding: 3.5rem 0;
   }
+  .site-nav .navbar-nav {
+    gap: 0.6rem;
+  }
+
+  .site-nav .navbar-brand,
+  .site-nav .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--color-border);
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(14px);
+}
+
+.site-nav .navbar-brand,
+.site-nav .nav-link {
+  color: var(--color-text) !important;
+}
+
+.site-nav .navbar-brand {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav .nav-link {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link.active {
+  color: var(--color-accent) !important;
+  opacity: 1;
+}
+.site-nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
