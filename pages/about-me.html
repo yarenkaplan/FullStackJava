@@ -8,121 +8,216 @@
     <title>About Me</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand site-nav">
+    <nav class="navbar navbar-expand-md site-nav">
       <div class="container page-container">
-        <a class="navbar-brand" href="./cv_current.html"> Home </a>
-
-        <div class="navbar-collapse">
+        <a class="navbar-brand" href="cv_current.html">Home</a>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="portfolioNavigation">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="./project.html"> Projects </a>
+              <a class="nav-link" href="project.html">Projects</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main class="container">
-      <section>
-        <section class="about-hero">
-          <div class="about-hero-content">
-            <span class="about-hero-eyebrow">Beyond the Resume</span>
-            <h1 class="about-hero-title">
-              Developer, learner, and someone who takes growth seriously.
-            </h1>
-            <p class="about-hero-description">
-              I’m Yaren. Software development is an important part of what I do,
-              but not the whole picture. I care about building a life around
-              curiosity, discipline and continuous improvement whether that
-              means writing code, training, playing guitar, reading, or learning
-              something new.
-            </p>
-            <div class="about-hero-tags">
-              <span>Software Development</span>
-              <span>Fitness</span>
-              <span>Guitar</span>
-              <span>Reading</span>
-              <span>Languages</span>
+    <main class="about-me-page">
+      <div class="page-container">
+        <section>
+          <section class="about-hero">
+            <div class="about-hero-content">
+              <span class="about-hero-eyebrow">Beyond the Resume</span>
+              <h1 class="about-hero-title">
+                Developer, learner, and someone who takes growth seriously.
+              </h1>
+              <p class="about-hero-description">
+                I’m Yaren. Software development is an important part of what I do,
+                but not the whole picture. I care about building a life around
+                curiosity, discipline and continuous improvement whether that
+                means writing code, training, playing guitar, reading, or learning
+                something new.
+              </p>
+              <div class="about-hero-tags">
+                <span>Software Development</span>
+                <span>Fitness</span>
+                <span>Guitar</span>
+                <span>Reading</span>
+                <span>Languages</span>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+          <section class="about-journey">
+            <div class="about-journey-container">
+              <div class="about-journey-header">
+                <span class="about-journey-eyebrow">My Journey</span>
+                <h2 className="about-journey-title">
+                  Different cities, different stages, one continuous learning
+                  process.
+                </h2>
+                <p class="about-journey-intro">
+                  My path has taken me through different cities, environments and
+                  professional experiences. Each step added something different to
+                  the way I think, work and adapt.
+                </p>
+              </div>
+  
+              <div class="about-journey-timeline">
+                <article class="journey-item">
+                  <span class="journey-item-number">01</span>
+                  <div class="journey-item-content">
+                    <span class="journey-item-location">Izmir</span>
+                    <h3>Early Years</h3>
+                    <p>
+                      I grew up and completed my high school education in Izmir,
+                      where my curiosity for learning and building things started
+                      to take shape.
+                    </p>
+                  </div>
+                </article>
+  
+                <article class="journey-item">
+                  <span class="journey-item-number">02</span>
+                  <div class="journey-item-content">
+                    <span class="journey-item-location">Istanbul</span>
+                    <h3>University</h3>
+                    <p>
+                      Moving to Istanbul for university introduced me to a new
+                      city, new responsibilities and a more independent way of
+                      thinking.
+                    </p>
+                  </div>
+                </article>
+  
+                <article class="journey-item">
+                  <span class="journey-item-number">03</span>
+                  <div class="journey-item-content">
+                    <span class="journey-item-location">Professional Life</span>
+                    <h3>Internships & First Experiences</h3>
+                    <p>
+                      Through internships and professional experiences, I started
+                      turning academic knowledge into practical skills and
+                      learning how real teams and projects work.
+                    </p>
+                  </div>
+                </article>
+  
+                <article class="journey-item">
+                  <span class="journey-item-number">04</span>
+                  <div class="journey-item-content">
+                    <span class="journey-item-location">Germany</span>
+                    <h3>A New Chapter</h3>
+                    <p>
+                      Moving to Germany became another major step in my journey,
+                      challenging me to adapt to a new environment while
+                      continuing to grow personally and professionally.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="about-interests">
+            <div class="about-interests-contatiner">
+              <div class="about-interests-header">
+                <span class="about-interests-eyebrow">What Shapes Me</span>
+                <h2 class="about-interests-title">The things I take seriously outside of work.</h2>
+                <p class="about-interests-intro">
+                  I like having different areas in my life that challenge me in different ways.
+                  Some build discipline, some curiosity, and some simply help me stay present.
+                </p>
+              </div>
 
-        <section class="about-journey">
-          <div class="about-journey-container">
-            <div class="about-journey-header">
-              <span class="about-journey-eyebrow">My Journey</span>
-              <h2 className="about-journey-title">
-                Different cities, different stages, one continuous learning
-                process.
+              <div class="about-interests-grid">
+                <article class="interest-card">
+                  <div class="interest-card-number">01</div>
+                  <h3>Fitness</h3>
+                  <p>
+                    Training is one of the clearest ways I practice consistency.
+                    It reminds me that progress usually comes from small efforts repeated over time.
+                  </p>
+                </article>
+
+                <article class="interest-card">
+                  <div class="interest-card-number">02</div>
+                  <h3>Guitar</h3>
+                  <p>
+                    Playing guitar gives me a different kind of focus.
+                    It is both creative and technical, which is probably why I enjoy it so much.
+                  </p>
+                </article>
+
+                <article class="interest-card">
+                  <div class="interest-card-number">03</div>
+                  <h3>Reading & Research</h3>
+                  <p>
+                    I enjoy reading beyond software and exploring ideas deeply.
+                    Research helps me understand not only how something works, but why.
+                  </p>
+                </article>
+
+                <article class="interest-card">
+                  <div class="interest-card__number">04</div>
+                  <h3>Learning Languages</h3>
+                  <p>
+                    Learning a new language challenges both memory and perspective.
+                    It also helps me connect more naturally with different cultures and environments.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="about-values">
+            <div class="about-values-container">
+              <div class="about-values-header">
+                <span class="about-values-eyebrow">How I Think</span>
+                <h2 class="about-values-title">
+                  A few principles I try to carry into everything I do.
+                </h2>
+              </div>
+              <div class="about-values-grid">
+                <article class="value-item">
+                  <span class="value-item-label">Consistency</span>
+                  <p>
+                    I trust steady progress more than short bursts of motivation.
+                  </p>
+                </article>
+                <article class="value-item">
+                  <span class="value-item-label">Curiosity</span>
+                  <p>
+                    I like understanding things deeply instead of stopping at the surface.
+                  </p>
+                </article>
+                <article class="value-item">
+                  <span class="value-item-label">Discipline</span>
+                  <p>
+                    I value showing up even when the process is repetitive or difficult.
+                  </p>
+                </article>
+                <article class="value-item">
+                  <span class="value-item-label">Adaptability</span>
+                  <p>
+                    New places, technologies and environments usually become opportunities to grow.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="about-closing">
+            <div class="about-closing-container">
+              <span class="about-closing-eyebrow">Still Learning</span>
+              <h2 class="about-closing-title">
+                I want to keep becoming better at what I build and how I live.
               </h2>
-              <p class="about-journey-intro">
-                My path has taken me through different cities, environments and
-                professional experiences. Each step added something different to
-                the way I think, work and adapt.
+              <p class="about-closing-text">
+                For me, growth is not limited to a career path.
+                It is a combination of learning deeply, staying curious, building discipline
+                and continuing to explore new things.
               </p>
             </div>
-
-            <div class="about-journey-timeline">
-              <article class="journey-item">
-                <span class="journey-item-number">01</span>
-                <div class="journey-item-content">
-                  <span class="journey-item-location">Izmir</span>
-                  <h3>Early Years</h3>
-                  <p>
-                    I grew up and completed my high school education in Izmir,
-                    where my curiosity for learning and building things started
-                    to take shape.
-                  </p>
-                </div>
-              </article>
-
-              <article class="journey-item">
-                <span class="journey-item-number">02</span>
-                <div class="journey-item-content">
-                  <span class="journey-item-location">Istanbul</span>
-                  <h3>University</h3>
-                  <p>
-                    Moving to Istanbul for university introduced me to a new
-                    city, new responsibilities and a more independent way of
-                    thinking.
-                  </p>
-                </div>
-              </article>
-
-              <article class="journey-item">
-                <span class="journey-item-number">03</span>
-                <div class="journey-item-content">
-                  <span class="journey-item-location">Professional Life</span>
-                  <h3>Internships & First Experiences</h3>
-                  <p>
-                    Through internships and professional experiences, I started
-                    turning academic knowledge into practical skills and
-                    learning how real teams and projects work.
-                  </p>
-                </div>
-              </article>
-
-              <article class="journey-item">
-                <span class="journey-item-number">04</span>
-                <div class="journey-item-content">
-                  <span class="journey-item-location">Germany</span>
-                  <h3>A New Chapter</h3>
-                  <p>
-                    Moving to Germany became another major step in my journey,
-                    challenging me to adapt to a new environment while
-                    continuing to grow personally and professionally.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
+          </section>
         </section>
-
-        <section class="about-interests"></section>
-
-        <section class="about-values"></section>
-
-        <section class="about-closing"></section>
-      </section>
+      </div>
       <hr />
     </main>
   </body>

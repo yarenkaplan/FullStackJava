@@ -1,0 +1,334 @@
+<section class="about-interests">
+    <div class="about-interests__container">
+  
+      <div class="about-interests__header">
+        <span class="about-interests__eyebrow">What Shapes Me</span>
+  
+        <h2 class="about-interests__title">
+          The things I take seriously outside of work.
+        </h2>
+  
+        <p class="about-interests__intro">
+          I like having different areas in my life that challenge me in different ways.
+          Some build discipline, some curiosity, and some simply help me stay present.
+        </p>
+      </div>
+  
+      <div class="about-interests__grid">
+  
+        <article class="interest-card">
+          <div class="interest-card__number">01</div>
+          <h3>Fitness</h3>
+          <p>
+            Training is one of the clearest ways I practice consistency.
+            It reminds me that progress usually comes from small efforts repeated over time.
+          </p>
+        </article>
+  
+        <article class="interest-card">
+          <div class="interest-card__number">02</div>
+          <h3>Guitar</h3>
+          <p>
+            Playing guitar gives me a different kind of focus.
+            It is both creative and technical, which is probably why I enjoy it so much.
+          </p>
+        </article>
+  
+        <article class="interest-card">
+          <div class="interest-card__number">03</div>
+          <h3>Reading & Research</h3>
+          <p>
+            I enjoy reading beyond software and exploring ideas deeply.
+            Research helps me understand not only how something works, but why.
+          </p>
+        </article>
+  
+        <article class="interest-card">
+          <div class="interest-card__number">04</div>
+          <h3>Learning Languages</h3>
+          <p>
+            Learning a new language challenges both memory and perspective.
+            It also helps me connect more naturally with different cultures and environments.
+          </p>
+        </article>
+  
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="about-values">
+    <div class="about-values__container">
+  
+      <div class="about-values__header">
+        <span class="about-values__eyebrow">How I Think</span>
+  
+        <h2 class="about-values__title">
+          A few principles I try to carry into everything I do.
+        </h2>
+      </div>
+  
+      <div class="about-values__grid">
+  
+        <article class="value-item">
+          <span class="value-item__label">Consistency</span>
+          <p>
+            I trust steady progress more than short bursts of motivation.
+          </p>
+        </article>
+  
+        <article class="value-item">
+          <span class="value-item__label">Curiosity</span>
+          <p>
+            I like understanding things deeply instead of stopping at the surface.
+          </p>
+        </article>
+  
+        <article class="value-item">
+          <span class="value-item__label">Discipline</span>
+          <p>
+            I value showing up even when the process is repetitive or difficult.
+          </p>
+        </article>
+  
+        <article class="value-item">
+          <span class="value-item__label">Adaptability</span>
+          <p>
+            New places, technologies and environments usually become opportunities to grow.
+          </p>
+        </article>
+  
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="about-closing">
+    <div class="about-closing__container">
+  
+      <span class="about-closing__eyebrow">Still Learning</span>
+  
+      <h2 class="about-closing__title">
+        I want to keep becoming better at what I build and how I live.
+      </h2>
+  
+      <p class="about-closing__text">
+        For me, growth is not limited to a career path.
+        It is a combination of learning deeply, staying curious, building discipline
+        and continuing to explore new things.
+      </p>
+  
+    </div>
+  </section>
+
+
+----
+/* =========================
+   ABOUT INTERESTS
+   ========================= */
+
+.about-interests {
+  padding: 7rem 2rem;
+}
+
+.about-interests__container {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+.about-interests__header {
+  max-width: 750px;
+  margin-bottom: 3.5rem;
+}
+
+.about-interests__eyebrow,
+.about-values__eyebrow,
+.about-closing__eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.about-interests__title,
+.about-values__title,
+.about-closing__title {
+  margin: 0;
+
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.15;
+}
+
+.about-interests__intro {
+  max-width: 650px;
+  margin-top: 1.25rem;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about-interests__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.interest-card {
+  min-height: 260px;
+  padding: 2rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 1.25rem;
+
+  background: rgba(255, 255, 255, 0.04);
+
+  transition: transform 0.25s ease,
+              border-color 0.25s ease,
+              background 0.25s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(96, 165, 250, 0.45);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.interest-card__number {
+  margin-bottom: 2rem;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.interest-card h3 {
+  margin: 0 0 0.8rem;
+
+  font-size: 1.5rem;
+}
+
+.interest-card p {
+  margin: 0;
+
+  line-height: 1.75;
+}
+
+
+/* =========================
+   ABOUT VALUES
+   ========================= */
+
+.about-values {
+  padding: 7rem 2rem;
+}
+
+.about-values__container {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+.about-values__header {
+  max-width: 720px;
+  margin-bottom: 3.5rem;
+}
+
+.about-values__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.value-item {
+  padding: 1.5rem 0;
+
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.value-item__label {
+  display: block;
+
+  margin-bottom: 0.8rem;
+
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.value-item p {
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.65;
+  opacity: 0.8;
+}
+
+
+/* =========================
+   ABOUT CLOSING
+   ========================= */
+
+.about-closing {
+  padding: 8rem 2rem 9rem;
+}
+
+.about-closing__container {
+  width: min(900px, 100%);
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.about-closing__title {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-closing__text {
+  max-width: 650px;
+  margin: 1.5rem auto 0;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 900px) {
+
+  .about-values__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .about-interests,
+  .about-values,
+  .about-closing {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .about-interests__grid,
+  .about-values__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .interest-card {
+    min-height: auto;
+  }
+
+  .about-closing {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+}
+
